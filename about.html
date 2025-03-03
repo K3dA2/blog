@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ayanfe's Blog🫡</title>
+    <style>
+        :root {
+            --primary-color: #2d3436;
+            --secondary-color: #636e72;
+            --background-color: #f5f6fa;
+            --accent-color: #0984e3;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: var(--background-color);
+            color: var(--primary-color);
+        }
+
+        header {
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            margin-left: 2rem;
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .about-container {
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .profile-section {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            align-items: start;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-links {
+                margin-top: 1rem;
+            }
+
+            .nav-links a {
+                margin: 0 1rem;
+            }
+
+            .profile-section {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="site-title">Ayanfe's Blog🫡</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-container">
+            <div class="profile-section">
+                <img src="/api/placeholder/200/200" alt="Your Name" class="profile-image">
+                <div>
+                    <h1>Hello, I'm Ayanfe</h1>
+                    <p>A passionate technologist exploring the intersections of AI, robotics, and game development. With [X] years of experience in software development, I'm constantly learning and sharing my journey through this blog.</p>
+                </div>
+            </div>
+
+            <section>
+                <h2>What I Do</h2>
+                <p>I specialize in artificial intelligence and robotics, with a particular focus on their applications in game development. My work involves:</p>
+                <ul>
+                    <li>Developing AI-powered game mechanics and NPCs</li>
+                    <li>Building and programming robots for various applications</li>
+                    <li>Creating tutorials and guides for fellow developers</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>My Journey</h2>
+                <p>My fascination with technology began [your story here]. Since then, I've worked on numerous projects, including [highlight some key projects or experiences].</p>
+            </section>
+
+            <div class="social-links">
+                <h2>Connect With Me</h2>
+                <a href="https://github.com/K3dA2">GitHub</a>
+                <a href="https://x.com/_keda_1">Twitter</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Ayanfe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
